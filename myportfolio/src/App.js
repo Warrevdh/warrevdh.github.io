@@ -1,7 +1,7 @@
-import "./App.css";
+import NavBar from "./components/navbar";
 
 function App() {
-  return;
+  return <NavBar />;
 }
 
 export default App;
