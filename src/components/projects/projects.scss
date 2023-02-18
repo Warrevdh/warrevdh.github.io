@@ -1,0 +1,23 @@
+.backgroundProjects {
+  background: rgb(193, 193, 193);
+  background: linear-gradient(
+    90deg,
+    rgba(193, 193, 193, 0.4556023092830882) 0%,
+    rgba(89, 89, 89, 1) 100%
+  );
+}
+
+.QuizMakerImg {
+  -webkit-mask-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(rgba(0, 0, 0, 1)),
+    to(rgba(0, 0, 0, 0))
+  );
+  mask-image: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
+}
