@@ -27,7 +27,7 @@ function AboutMeText() {
         out with friends.
       </p>
       <p className="text-gray-100">
-        Here you can download my <span className="font-semibold">CV</span>:
+        Here you can view my <span className="font-semibold">CV</span>:
       </p>
       <a
         href="https://github.com/Warrevdh/warrevdh.github.io/raw/main/frontend/src/downloads/CV%20-%20Warre%20Vandenhoucke.pdf"
@@ -36,7 +36,7 @@ function AboutMeText() {
         download
         className="text-center text-cyan-900 border border-cyan-900 bg-gray-300 w-2/5 sm:w-1/5 md:w-[150px] lg:w-1/5 rounded-2xl mt-3 py-3 px-5 transition duration-500 ease-linear select-none hover:bg-gray-400 hover:text-white"
       >
-        Download
+        View
       </a>
     </div>
   );
