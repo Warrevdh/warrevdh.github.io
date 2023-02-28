@@ -31,7 +31,9 @@ function AboutMeText() {
       </p>
       <a
         href="https://Warrevdh.github.com/warrevdh.github.io/blob/master/CV%20-%20Warre%20Vandenhoucke.pdf"
-        download="CV - Warre Vandenhoucke.pdf"
+        target="_blank"
+        rel="noreferrer"
+        download
         className="text-center text-cyan-900 border border-cyan-900 bg-gray-300 w-2/5 sm:w-1/5 md:w-[150px] lg:w-1/5 rounded-2xl mt-3 py-3 px-5 transition duration-500 ease-linear select-none hover:bg-gray-400 hover:text-white"
       >
         Download
