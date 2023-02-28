@@ -1,54 +1,57 @@
 import "./skills.scss";
+import htmlIcon from "../../images/htmlIcon.png";
+import cssIcon from "../../images/cssIcon.png";
+import jsIcon from "../../images/jsIcon.png";
+import javaIcon from "../../images/javaIcon.png";
+import nodejsIcon from "../../images/nodejsIcon.png";
+import prismaIcon from "../../images/prismaIcon.png";
+import pythonIcon from "../../images/pythonIcon.png";
+import sassIcon from "../../images/sassIcon.png";
+import tailwindIcon from "../../images/tailwindIcon.png";
 
 export default function Skills() {
   return (
     <div
-      className="text-center pt-5 cursor-default backgroundSkills"
+      className="text-center py-5 cursor-default backgroundSkills"
       id="skills"
     >
       <h1 className="text-6xl font-bold">Skills</h1>
-      <div className="mt-3 grid grid-cols-2 md:grid-cols-3 gap-y-4 text-7xl md:mx-16">
-        <div>
-          <i className="fa-brands fa-java w-max"></i>
-          <div className="text-lg">Java</div>
-          <div className="w-1/3 bg-gray-200 rounded-full h-2.5 mt-2 mb-4 mx-auto">
-            <div className="bg-blue-600 h-2.5 rounded-full w-2/3"></div>
-          </div>
+      <div className="mt-3 grid grid-cols-2 md:grid-cols-3 gap-y-4 text-md md:mx-16">
+        <div className="grid grid-rows-2 justify-center">
+          <img className="icon" src={htmlIcon} alt="" />
+          <p className="mt-2">HTML</p>
         </div>
-        <div>
-          <i className="fa-brands fa-js"></i>
-          <div className="text-lg">Javascript</div>
-          <div className="w-1/3 bg-gray-300 rounded-full h-2.5 mt-2 mb-4 mx-auto">
-            <div className="bg-blue-600 h-2.5 rounded-full w-5/6"></div>
-          </div>
+        <div className="grid grid-rows-2 justify-center">
+          <img className="icon" src={cssIcon} alt="" />
+          <p className="mt-2">CSS</p>
         </div>
-        <div>
-          <i className="fa-brands fa-node"></i>
-          <div className="text-lg">NodeJS</div>
-          <div className="w-1/3 bg-gray-400 rounded-full h-2.5 mt-2 mb-4 mx-auto">
-            <div className="bg-blue-600 h-2.5 rounded-full w-2/3"></div>
-          </div>
+        <div className="grid grid-rows-2 justify-center">
+          <img className="icon" src={jsIcon} alt="" />
+          <p className="mt-2">Javascript</p>
         </div>
-        <div className="">
-          <i className="fa-brands fa-python"></i>
-          <div className="text-lg">Python</div>
-          <div className="w-1/3 bg-gray-200 rounded-full h-2.5 mt-2 mb-4 mx-auto">
-            <div className="bg-blue-600 h-2.5 rounded-full w-1/2"></div>
-          </div>
+        <div className="grid grid-rows-2 justify-center">
+          <img className="icon" src={javaIcon} alt="" />
+          <p className="mt-2">Java</p>
         </div>
-        <div>
-          <i className="fa-brands fa-sass"></i>
-          <div className="text-lg">Sass</div>
-          <div className="w-1/3 bg-gray-300 rounded-full h-2.5 mt-2 mb-4 mx-auto">
-            <div className="bg-blue-600 h-2.5 rounded-full w-3/4"></div>
-          </div>
+        <div className="grid grid-rows-2 justify-center">
+          <img className="icon" src={nodejsIcon} alt="" />
+          <p className="mt-2">NodeJS</p>
         </div>
-        <div>
-          <i class="fa-solid fa-code"></i>
-          <div className="text-lg">HTML/CSS</div>
-          <div className="w-1/3 bg-gray-400 rounded-full h-2.5 mt-2 mb-4 mx-auto">
-            <div className="bg-blue-600 h-2.5 rounded-full w-10/12"></div>
-          </div>
+        <div className="grid grid-rows-2 justify-center">
+          <img className="icon" src={prismaIcon} alt="" />
+          <p className="mt-2">Prisma</p>
+        </div>
+        <div className="grid grid-rows-2 justify-center">
+          <img className="icon" src={pythonIcon} alt="" />
+          <p className="mt-2">Python</p>
+        </div>
+        <div className="grid grid-rows-2 justify-center">
+          <img className="icon" src={sassIcon} alt="" />
+          <p className="mt-2">Sass</p>
+        </div>
+        <div className="grid grid-rows-2 justify-center">
+          <img className="icon" src={tailwindIcon} alt="" />
+          <p className="mt-2">TailwindCSS</p>
         </div>
       </div>
     </div>

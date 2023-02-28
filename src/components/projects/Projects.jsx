@@ -4,7 +4,7 @@ import QuizMaker from "../../images/QuizMaker.png";
 export default function Projects() {
   return (
     <div
-      className="text-center pt-5 cursor-default backgroundProjects"
+      className="text-center py-5 cursor-default backgroundProjects"
       id="projects"
     >
       <h1 className="text-6xl font-bold">Projects</h1>
@@ -19,11 +19,17 @@ export default function Projects() {
 function QuizMakerProject() {
   return (
     <div className="grid md:grid-cols-2 mx-auto mt-5">
-      <img
-        className="rounded-full mx-auto my-5  QuizMakerImg"
-        src={QuizMaker}
-        alt=""
-      />
+      <a
+        href="https://quizmaker-wv.onrender.com/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <img
+          className="rounded-full mx-auto my-5  QuizMakerImg"
+          src={QuizMaker}
+          alt=""
+        />
+      </a>
       <div className="flex flex-col mr-5">
         <h2 className="text-xl font-bold">QuizMaker</h2>
         <p className="curs">

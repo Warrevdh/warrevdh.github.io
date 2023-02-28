@@ -6,3 +6,14 @@
     rgba(193, 193, 193, 0.4556023092830882) 100%
   );
 }
+
+.icon {
+  width: 70px;
+  height: 70px;
+  margin: 0 10px;
+  border-radius: 30%;
+  transition: all 0.3s ease-in-out;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
