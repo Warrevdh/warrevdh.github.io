@@ -30,7 +30,7 @@ function AboutMeText() {
         Here you can download my <span className="font-semibold">CV</span>:
       </p>
       <a
-        href="https://Warrevdh.github.com/warrevdh.github.io/blob/master/CV%20-%20Warre%20Vandenhoucke.pdf"
+        href="https://github.com/Warrevdh/warrevdh.github.io/raw/main/frontend/src/downloads/CV%20-%20Warre%20Vandenhoucke.pdf"
         target="_blank"
         rel="noreferrer"
         download
