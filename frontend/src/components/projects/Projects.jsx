@@ -54,8 +54,8 @@ function ZatreProject() {
   return (
     <div className="grid md:grid-cols-2 pr-5 bg-gradient-to-r from-gray-700 to-gray-300">
       <div className="flex flex-col ml-5 justify-center">
-        <h2 className="text-xl font-bold text-gray-900">Zatre</h2>
-        <p className="text-transparent bg-clip-text bg-gradient-to-r from-gray-900 to-gray-600">
+        <h2 className="text-xl font-bold text-gray-50">Zatre</h2>
+        <p className="text-transparent bg-clip-text bg-gradient-to-r from-gray-50 to-gray-200">
           In the second semester of my first year of my bachelor we were tasked
           to make a german boardgame called ZATRE. <br />
           We had to make this game in a group of 5 people. <br />
