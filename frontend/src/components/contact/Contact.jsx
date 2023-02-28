@@ -2,7 +2,7 @@ import "./contact.scss";
 
 export default function Contact() {
   return (
-    <div className="text-center pt-5 backgroundContact">
+    <div className="text-center pt-5 bg-gradient-to-r from-gray-700 to-gray-300">
       <h1 className="text-6xl font-bold cursor-default">Contact me</h1>
       <div className="flex py-5 text-5xl justify-center" id="contact">
         <div className="flex flex-col text-center">
