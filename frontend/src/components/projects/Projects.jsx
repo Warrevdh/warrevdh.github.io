@@ -19,7 +19,7 @@ export default function Projects() {
 
 function QuizMakerProject() {
   return (
-    <div className="grid md:grid-cols-2 mx-auto mt-5 bg-gradient-to-r from-gray-300 to-gray-700">
+    <div className="grid md:grid-cols-2 md:h-[21rem] mx-auto mt-5 bg-gradient-to-r from-gray-300 to-gray-700">
       <a
         href="https://quizmaker-wv.onrender.com/"
         target="_blank"
@@ -52,7 +52,7 @@ function QuizMakerProject() {
 
 function ZatreProject() {
   return (
-    <div className="grid md:grid-cols-2 pr-5 bg-gradient-to-r from-gray-700 to-gray-300">
+    <div className="grid md:grid-cols-2 md:h-[21rem] pr-5 bg-gradient-to-r from-gray-700 to-gray-300">
       <div className="flex flex-col ml-5 justify-center">
         <h2 className="text-xl font-bold text-gray-50">Zatre</h2>
         <p className="text-transparent bg-clip-text bg-gradient-to-r from-gray-50 to-gray-200">
@@ -74,7 +74,7 @@ function ZatreProject() {
 
 function DelawareProject() {
   return (
-    <div className="grid md:grid-cols-2 md:h-[20rem] pr-5 pt-7 bg-gradient-to-r from-gray-300 to-gray-700">
+    <div className="grid md:grid-cols-2 md:h-[21rem] pr-5 pt-7 bg-gradient-to-r from-gray-300 to-gray-700">
       <a
         className="flex justify-center"
         href="https://www.delaware.pro/en-be"
