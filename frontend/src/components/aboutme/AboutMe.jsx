@@ -17,8 +17,8 @@ export default function AboutMe() {
 function AboutMeText() {
   return (
     <div className="flex flex-col justify-center p-3 absolute bottom-0 md:relative backdrop-blur md:backdrop-blur-none md:w-1/2 cursor-default">
-      <h1 className="text-4xl font-bold mb-3 text-gray-50">About me</h1>
-      <p className="text-transparent bg-clip-text bg-gradient-to-r from-gray-200 to-gray-50">
+      <h1 className="text-4xl font-bold mb-3 md:text-gray-50">About me</h1>
+      <p className="md:text-transparent md:bg-clip-text md:bg-gradient-to-r md:from-gray-200 md:to-gray-50">
         Hi, my name is <span className="font-semibold hoverText">Warre</span>,
         I'm a 19 year old student at HOGENT University of Applied Sciences and
         Arts. <br /> I'm currently in my second year of the bachelor's degree,
@@ -26,7 +26,7 @@ function AboutMeText() {
         Apart from my studies, I love to play video games, watch movies and hang
         out with friends.
       </p>
-      <p className="text-gray-100">
+      <p className="md:text-gray-100">
         Here you can view my <span className="font-semibold">CV</span>:
       </p>
       <a

@@ -23,15 +23,15 @@ export default function Skills() {
         </div>
         <div className="grid grid-rows-2 justify-center">
           <img className="icon" src={cssIcon} alt="" />
-          <p className="mt-2 text-gray-200">CSS</p>
+          <p className="mt-2 md:text-gray-200">CSS</p>
         </div>
         <div className="grid grid-rows-2 justify-center">
           <img className="icon" src={jsIcon} alt="" />
-          <p className="mt-2">Javascript</p>
+          <p className="mt-2 text-gray-100 md:text-black">Javascript</p>
         </div>
         <div className="grid grid-rows-2 justify-center">
           <img className="icon" src={javaIcon} alt="" />
-          <p className="mt-2 text-gray-100">Java</p>
+          <p className="mt-2 md:text-gray-100">Java</p>
         </div>
         <div className="grid grid-rows-2 justify-center">
           <img className="icon" src={nodejsIcon} alt="" />
@@ -47,11 +47,11 @@ export default function Skills() {
         </div>
         <div className="grid grid-rows-2 justify-center">
           <img className="icon" src={sassIcon} alt="" />
-          <p className="mt-2 text-gray-200">Sass</p>
+          <p className="mt-2 md:text-gray-200">Sass</p>
         </div>
         <div className="grid grid-rows-2 justify-center">
           <img className="icon" src={tailwindIcon} alt="" />
-          <p className="mt-2">TailwindCSS</p>
+          <p className="mt-2 md:text-black text-gray-100">TailwindCSS</p>
         </div>
       </div>
     </div>

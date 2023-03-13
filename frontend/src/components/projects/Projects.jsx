@@ -32,7 +32,7 @@ function QuizMakerProject() {
         />
       </a>
       <div className="flex flex-col mr-5">
-        <h2 className="text-xl font-bold text-gray-50">QuizMaker</h2>
+        <h2 className="text-xl font-bold text-gray-50 md:block hidden">QuizMaker</h2>
         <p className="text-transparent bg-clip-text bg-gradient-to-r from-gray-200 to-gray-50">
           This was my first project that I made for two courses of my education,
           Front End Development and Web Services. <br /> This project is a web
@@ -52,7 +52,7 @@ function QuizMakerProject() {
 
 function ZatreProject() {
   return (
-    <div className="grid md:grid-cols-2 md:h-[21rem] pr-5 bg-gradient-to-r from-gray-700 to-gray-300">
+    <div className="grid md:grid-cols-2 md:h-[21rem] md:pr-5 pt-5 bg-gradient-to-r from-gray-700 to-gray-300">
       <div className="flex flex-col ml-5 justify-center">
         <h2 className="text-xl font-bold text-gray-50">Zatre</h2>
         <p className="text-transparent bg-clip-text bg-gradient-to-r from-gray-50 to-gray-200">
@@ -76,7 +76,7 @@ function DelawareProject() {
   return (
     <div className="grid md:grid-cols-2 md:h-[21rem] pr-5 pt-7 bg-gradient-to-r from-gray-300 to-gray-700">
       <a
-        className="flex justify-center"
+        className="flex justify-center mb-5"
         href="https://www.delaware.pro/en-be"
         target="_blank"
         rel="noreferrer"
@@ -84,7 +84,9 @@ function DelawareProject() {
         <img className="w-1/2 self-center" src={Delaware} alt="" />
       </a>
       <div className="flex flex-col ml-5 justify-center">
-        <h2 className="text-xl font-bold text-gray-50">Delaware</h2>
+        <h2 className="text-xl font-bold text-gray-50 md:block hidden">
+          Delaware
+        </h2>
         <p className="text-transparent bg-clip-text bg-gradient-to-r from-gray-200 to-gray-50">
           In the second semester of my second year of my bachelor we were tasked
           to make a website and java application for a company called Delaware.
